@@ -1,20 +1,24 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-html, body {
+html,
+body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFC568;
+  background-color: #ffc568;
   font-size: 62.5%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 @media screen and (max-width: 520px) {
-  html, body {
+  html,
+  body {
     /* don't know how to set default units to rem in mojs :(( */
   }
 }
@@ -37,22 +41,22 @@ html, body {
 
 .line {
   fill: none;
-  stroke: #FFFFFF;
+  stroke: #ffffff;
   stroke-width: 8;
   stroke-linecap: round;
   stroke-miterlimit: 10;
 }
 
 .lttr {
-  fill: #763C8C;
+  fill: #763c8c;
 }
 
 .sound {
   position: fixed;
-  color: #763C8C;
+  color: #763c8c;
   font-size: 1.6rem;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 5rem;
+  right: 5rem;
   text-decoration: underline;
   cursor: default;
 }
