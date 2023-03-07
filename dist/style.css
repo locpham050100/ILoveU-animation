@@ -55,8 +55,8 @@ body {
   position: fixed;
   color: #763c8c;
   font-size: 1.6rem;
-  bottom: 5rem;
-  right: 5rem;
+  bottom: 10rem;
+  right: 10rem;
   text-decoration: underline;
   cursor: default;
 }
